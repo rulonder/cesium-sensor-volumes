@@ -19,10 +19,13 @@
   "devDependencies": {
     "almond": "^0.3.3",
     "browser-sync": "^2.18.8",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
     "del": "^2.2.2",
     "electron": "1.6.5",
     "event-stream": "^3.3.4",
     "globby": "^6.1.0",
+    "glslify-loader": "^2.0.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.1",
     "gulp-if": "^2.0.2",
@@ -31,6 +34,7 @@
     "gulp-size": "^2.0.0",
     "gulp-util": "^3.0.8",
     "gulp-xo": "^0.15.0",
+    "html-webpack-plugin": "^3.2.0",
     "jasmine-core": "^2.5.2",
     "karma": "^1.6.0",
     "karma-chrome-launcher": "^2.0.0",
@@ -40,8 +44,14 @@
     "karma-requirejs": "^1.1.0",
     "lodash.assign": "^4.2.0",
     "merge-stream": "^1.0.1",
+    "raw-loader": "^1.0.0",
     "run-sequence": "^1.2.2",
-    "through2": "^2.0.3"
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "through2": "^2.0.3",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
   },
   "scripts": {
     "build": "gulp build",
